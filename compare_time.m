@@ -10,7 +10,13 @@ function [Q1, Q2, time1, time2] = compare_time(rel_err,trials)
 % Q2: integration results by quadgk_sim.m
 % time1: average time spent by integral.m
 % time2: average time spent by quadgk_sim.m
-% Usage example: [Q1, Q2, t1, t2]=compare_time(1e-14,1000);
+% Usage example: 
+% [Q1, Q2, t1, t2]=compare_time(1e-14,1000);
+% This will integrate the functions given in "test_func.m" 1000 
+% times with the relative error of 1e-14 along the triangular 
+% integration contour [0]-->[1+1i]-->[1-1i]-->[0] on the complex 
+% z-plane and compare the average time requirements and the 
+% integration results.
 
 
 time1=zeros(1,trials);
