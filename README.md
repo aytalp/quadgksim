@@ -1,4 +1,4 @@
-# quadgk_sim
+# quadgksim
 Adaptive Gauss-Kronrod quandrature for simultaneous integration of similar integrands.
 
 Upgraded by Aytac Alparslan using quadgk routine of Matlab. 2021
